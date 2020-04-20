@@ -1,1 +1,17 @@
-<p>product-create works!</p>
+<mat-card>
+  <mat-card-title>Novo Produto</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Nome">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preco">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="create()">
+    Salvar
+  </button>
+  <button mat-raised-button (click)="cancelar()">
+    cancelar
+  </button>
+</mat-card>
