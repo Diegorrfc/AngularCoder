@@ -18,11 +18,6 @@
     {
       "name": "diego",
       "price": 200,
-      "id": 2
-    },
-    {
-      "name": "diego",
-      "price": 200,
       "id": 3
     },
     {
@@ -34,11 +29,6 @@
       "name": "diego",
       "price": 200,
       "id": 5
-    },
-    {
-      "name": "diego",
-      "price": 200,
-      "id": 6
     }
   ]
 }

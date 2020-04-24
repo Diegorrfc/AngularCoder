@@ -2,3 +2,14 @@ table {
   width: 100%;
   margin-top: 10px;
 }
+
+.edit {
+  margin-right: 10px;
+}
+
+.edit > i {
+  color: rgb(255, 217, 0);
+}
+.delete > i {
+  color: red;
+}

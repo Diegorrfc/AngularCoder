@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-title>Alterar Produto</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Nome" [value]="product.name" name="name" disabled>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preco" [value]="product.price" name="price" disabled>
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="delete()">
+    Salvar
+  </button>
+  <button mat-raised-button (click)="cancel()">
+    cancelar
+  </button>
+</mat-card>
